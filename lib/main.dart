@@ -13,6 +13,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
+        colorScheme: ColorScheme.fromSwatch(
+          primarySwatch: Colors.blueGrey,
+          brightness: Brightness.light,
+        ),
       ),
       home: const Homepage(),
     );

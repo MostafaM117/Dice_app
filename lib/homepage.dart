@@ -56,7 +56,6 @@ class _HomepageState extends State<Homepage> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey.shade200,
         title: const Center(
           child: Text("Rolling Dice",
           style: TextStyle(fontWeight: FontWeight.bold),)
@@ -66,7 +65,7 @@ class _HomepageState extends State<Homepage> with SingleTickerProviderStateMixin
         Padding(padding: const EdgeInsets.all(18),
         child: Column(
           children: [
-            const SizedBox(height: 30,),
+            const SizedBox(height: 40,),
             _numberOfDice == 1 ? Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: 
@@ -87,7 +86,7 @@ class _HomepageState extends State<Homepage> with SingleTickerProviderStateMixin
               )).toList(),
             ),
             
-            const SizedBox(height: 60,),
+            const SizedBox(height: 70,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
