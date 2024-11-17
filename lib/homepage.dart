@@ -58,7 +58,7 @@ class _HomepageState extends State<Homepage> with SingleTickerProviderStateMixin
       appBar: AppBar(
         backgroundColor: Colors.grey.shade200,
         title: const Center(
-          child: Text("Dice Roller",
+          child: Text("Rolling Dice",
           style: TextStyle(fontWeight: FontWeight.bold),)
         ),
       ),
